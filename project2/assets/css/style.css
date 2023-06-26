@@ -1,0 +1,26 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Josefin+Sans:ital,wght@1,700&family=Lato:ital,wght@1,900&family=Libre+Baskerville&display=swap');
+
+/*
+ font-family: 'Dancing Script', cursive;
+font-family: 'Lato', sans-serif;
+'Libre Baskerville', serif;
+font-family: 'Libre Baskerville', serif;
+ */
+h1,h2,h3,h4{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+p{
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    text-shadow: 1px 1px #F0F8FF;
+} 
+
+
+.btn-primary{
+    background-color: red;
+}
+.
+/*rgba(66,79,255,0.5), rgba(0, 0, 0, 0.45)

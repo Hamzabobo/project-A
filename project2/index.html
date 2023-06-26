@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SENSO UNICO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <style>
+          #hero{
+             background:  url(assets/img/italy%20bg.jpg);
+	background-size: cover;
+              background-position: center center;
+          }
+          #heroo{
+              background: linear-gradient( rgba(255,0,0,.5), rgba(255,255,255,.75),rgba(0,153,0,.75));
+          }
+           #hero1{
+            background: linear-gradient( rgba(250,250,250,.5), rgba(250,250,250,.5) ), url(assets/img/m2.jpg);
+		background-size:cover;
+	background-position:  center bottom;
+          }
+
+          #hero2{
+            background: linear-gradient( rgba(200,200,200,.75), rgba(200,200,200,.75) ), url(assets/img/tiram.jpg);
+		background-size:cover;
+	background-position:center center;
+          }
+          
+          #abc{
+              background: linear-gradient( rgba(255,0,0,.5), rgba(255,255,255,.75),rgba(0,153,0,.75) ), url(assets/img/m2.jpg);
+	          background-attachment: fixed;
+	          background-size: cover;
+              background-position: center center;
+	          padding:80px 15px;
+          }
+          
+              
+               
+      </style>
+  </head>
+  <body>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+  <div class="container-fluid">
+      <img src="assets/img/senso%20logo.jpg"  width="80" height="70">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-lg-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link btn btn-outline-danger" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-outline-danger" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-outline-danger" href="#">MENU</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- About contact the resto -->
+    <section class="container-fluid bg-dark-subtle py-5 " id="hero">
+        <div class="container">
+           <div class="row">
+            <div class="col-md-6 p-2 text-dark bg-opacity-10" id="heroo">  
+              <h1> SENSO UNICO </h1>
+              <p> Welcome to our Italian restaurant, where we invite you to experience the flavors and warmth of Italy right here in sunnyside. Our establishment is dedicated to delivering an authentic Italian culinary journey that will delight your taste buds and transport you to the vibrant streets of Italy.</p>
+                <div class="mb-3">
+                   <label class="form-label">Name</label>
+                   <input type="name" class="form-control" id="nm" >
+                </div>  
+                <div class="mb-3">
+                   <label class="form-label">Email</label>
+                   <input type="email" class="form-control" id="em">            
+                 </div>
+                <button type="submit"  class="btn btn-outline-danger" id="inquirysubmit" data-bs-toggle="modal" data-bs-target="#submitreceipt">Submit order</button>
+            
+
+            
+            </div>
+            <div class="col-md-6">
+            </div>
+           </div>
+         </div>
+      </section>
+      
+    
+    <section class="container p-5">
+            <div class="row">
+                <div class="col-12 pb-3">
+                    <h1>features</h1>
+                </div>
+               <div class="col-lg p-5 border" id="hero2">
+                   <h1> Tiramisu </h1>
+              <p> At SENSO UNICO , we take great pride in our Tiramisu. Our skilled pastry chefs prepare it with utmost care, using traditional methods and high-quality ingredients. The layers of delicate ladyfingers are soaked in a robust coffee and a hint of rum for a delightful flavor infusion., we take great pride in our Tiramisu. Our skilled pastry chefs prepare it with utmost care, using traditional methods and high-quality ingredients. The layers of delicate ladyfingers are soaked in a robust coffee and a hint of rum for a delightful flavor infusion.</p>
+                   <button id="btn1" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#examplemodal">
+  Order more
+                   </button>
+                
+               </div>
+               <div class="col-lg p-5 border " id="hero1">
+              <h1> Catring order</h1>
+                   <p> At SENSO UNICO ,Certainly! We'd be delighted to assist you with your catering order. To better understand your needs and provide you with the best service, could you please provide some additional information?Once we have these details, we will be able to provide you with a customized catering proposal, including menu options and pricing.using traditional methods and high-quality ingredients. Feel free to provide any other specific requests or questions you may have, and we'll be happy to assist you further.</p>
+                   <button  id="bnt2" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#examplemodal">
+  learn more
+                   </button>
+               </div>
+             </div>
+      </section>
+    
+<!-- cards -->
+      <section class="continer" id="abc">
+          <div class="text-center mb-0 text-white py-5">
+		       <h2 class="text-uppercase "> Happy hours</h2>
+		       <p class="lead"> SENSO UNICO staff takes great pleasure in serving you during our happy hours, and we extend a warm welcome to you every Friday and Saturday. </p>
+		       <a class="btn btn-primary btn-lg" href="#" role="button"> Reservation </a>
+	     </div>
+         <div class="row">      
+          <div class="card col" style="width: 18rem;">
+             <img src="assets/img/m1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+             <h2 class="card-title">Card title</h2>
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+             <a href="#" class="btn btn-primary">go to Menu</a>
+          </div>
+          </div>
+          <div class="card col" style="width: 18rem;">
+             <img src="assets/img/m2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+             <h2 class="card-title">Card title</h2>
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+             <a href="#" class="btn btn-primary">go to Menu</a>
+          </div>
+          </div>
+          <div class="card col" style="width: 18rem;">
+             <img src="assets/img/salm%201.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+             <h2 class="card-title">Card title</h2>
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+             <a href="#" class="btn btn-primary">go to Menu</a>
+          </div>
+          </div>     
+         </div>
+      
+      
+      </section>
+      <section>
+          <div class="container-fluid stripebg">
+		<div class="row">
+			<div class="col-md-8 p-0">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d698.7787761026354!2d-73.9221065559699!3d40.741236729364736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25eda29855f45%3A0x4c6d713b6b3d6589!2sSenso%20Unico!5e0!3m2!1sen!2sus!4v1687804082716!5m2!1sen!2sus" width="800" height="450" style="border:2;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+			<div class="col-md-4 p-5">
+				<h3>Address:</h3>
+				<p class="lead">
+					43-04 47TH AVENUE <br>
+					SUNNYSIDE, NY 11104<br>
+					<a href="tel:(347) 662-6101" class="text-decoration-none"></a><br>
+					<a href="mailto:engsflorist@gmail.com" class="text-decoration-none">SENSOUNICO@GMAIL.COM</a>
+				</p>
+			</div>
+		</div>
+	</div>
+      </section>
+      <footer class="tc">
+           <p>&copy;Copyright 2023</p>
+      </footer>
+ 
+
+<!-- Modal -->
+<div class="modal fade" id="submitreceipt" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Thank you for ordering with us </h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>we recieve your order wi will contact you in few hours to send the delivery</p>
+        <p> name: <span id="nmval"> bob</span><br>
+            email: <span id="emval">   bob@gmail.com </span>
+           </p>
+      </div>
+    </div>
+  </div>
+</div>
+      
+      <!-- Button trigger modal 
+
+<!-- Modal 
+<div class="modal fade" id="examplemodal"  tabindex="-1" aria-labelledby="exampleModallabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title" id="exampleModallabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <img  id="mimg" src="assets/img/tiram.jpg" class="img-fluide" >
+          <p id="mp"> Tiramisu <br>
+            <a href="#" class="btn">15$</a>     
+          </p>
+        
+      </div>
+    </div>
+  </div>
+</div> -->
+      
+      
+      
+      
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+      <script src="assets/js/script.js"></script>
+  </body>
+</html>
